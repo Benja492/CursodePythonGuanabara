@@ -1,0 +1,5 @@
+n = str(input('Digite um número de 1 a 9999: '))
+print('Unidades: {}.'.format(n[3]))
+print('Dezenas: {}.'.format(n[2]))
+print('Centenas: {}.'.format(n[1]))
+print('Unidades de milhar: {}.'.format(n[0]))
